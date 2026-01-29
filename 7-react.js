@@ -268,3 +268,107 @@
     React Native (mobile apps)
     Micro frontends concept
 */
+
+/*
+🟢 React Basics & Setup
+
+    1. Introduction to React JS
+    2. React JS Roadmap for Beginners
+    3. Create React App (CRA)
+    4. React Folder Structure
+    5. JSX Basics
+    6. Components in React (Functional & Class)
+    7. Import & Export Components
+    8. JSX Attributes & Expressions
+    9. Styling Components in React
+
+🟢 Props, State & Core Concepts
+
+    10. Props in React
+    11. Rendering Lists using map()
+    12. Functional Components – Different Ways
+    13. Children Props
+    14. React Fragments
+    15. Event Handling in React
+    16. State in React (Class Components)
+    17. setState & Binding
+    18. useState Hook
+    19. Background Color Changer App
+    20. Counter App using React
+    21. Props Destructuring
+
+🟢 Small Apps & UI Logic
+
+    22. Todo App using React
+    23. Two-Way Data Binding
+    24. Calculator App using React
+    25. Virtual DOM & Reconciliation
+    26. Conditional Rendering
+
+🟢 Hooks Deep Dive
+
+    27. useEffect Hook
+    28. API Calls using useEffect
+    29. Using Static Images in React
+    30. useRef Hook – Part 1
+    31. useRef Hook – Part 2
+    32. Custom Hooks
+    33. Props Drilling
+    34. Context API (useContext)
+    35. useMemo Hook – Part 1
+    36. useMemo Hook – Part 2
+    37. Child to Parent Data Communication
+
+🟢 Routing & Navigation
+
+    38. React Routing Basics
+    39. Nested Routing
+    40. Query Parameters in React Router
+    41. Link vs Anchor Tag
+    42. Error Handling in React Routing
+
+🟢 Lifecycle, Forms & Optimization
+
+    43. Component Lifecycle Methods – Part 1
+    44. Component Lifecycle Methods – Part 2
+    45. Installing Bootstrap in React
+    46. Form Handling in React
+    47. Form Validation in React
+    48. API Integration in React
+    49. Axios in React
+    50. Lazy Loading in React
+    51. Lazy Loading with Routing
+    52. Higher Order Components (HOC)
+    53. PropTypes in React
+    54. Default Props
+    55. JSX Rules
+    56. React Portals
+    57. React Portals Example
+
+🟢 CRUD & Reducer
+
+    58. CRUD Operations – Part 1
+    59. CRUD Operations – Part 2 (with Validation)
+    60. useReducer Hook – Part 1
+    61. useReducer Hook – Part 2
+
+🟢 Redux & State Management
+
+    62. Introduction to Redux
+    63. Redux Implementation
+    64. Using Redux in React
+    65. Action Creators in Redux
+    66. Combine Reducers
+    67. Todo App using Redux
+    68. Redux Thunk (Middleware)
+
+🟢 Modern Tooling & Deployment
+
+    69. Vite + React Setup
+    70. Redux Toolkit Introduction
+    71. Redux Toolkit with Example
+    72. Multiple Slices in Redux Toolkit
+    73. API Handling with Redux Toolkit
+    74. Deploy React Application
+    75. Host React App on Netlify
+*/

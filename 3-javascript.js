@@ -284,3 +284,271 @@
     Microtask queue
     Polyfills for map, filter, bind, etc.
 */
+
+/*
+
+✅ JavaScript Interview Concepts (Master List)
+
+Use this as your final revision checklist.
+
+1. Core JavaScript Fundamentals
+
+🔹 Execution Context
+    Creation phase → memory allocation (hoisting)
+    Execution phase → code runs line-by-line
+
+🔹 Hoisting
+    var → hoisted with undefined
+    let and const → hoisted but not initialized (Temporal Dead Zone)
+    Function declarations → fully hoisted
+
+🔹 Scopes
+    Global scope
+    Function scope
+    Block scope (let, const)
+    Lexical scope
+
+🔹 this Binding
+    Depends on how a function is called:
+    Implicit binding → obj.method()
+    Explicit binding → call, apply, bind
+    New binding → new Constructor()
+    Default binding → window/global (strict mode → undefined)
+
+2. Functions & Closures
+
+🔹 Closures
+    A function remembers variables from its parent scope even after the parent has executed.
+    Used for:
+        Data privacy
+        Function factories
+        Currying
+        Memoization
+
+🔹 Higher-Order Functions
+    Functions that take or return other functions.
+
+🔹 Currying
+    sum(1)(2)(3)
+
+🔹 Function Composition
+    compose(f, g)(x) = f(g(x))
+
+3. Prototypes & OOP
+
+🔹 Prototype Chain
+    Objects inherit from [[Prototype]].
+
+🔹 Classes
+    Syntactic sugar over prototypes
+    constructor, methods, super, extends
+
+🔹 Inheritance
+    Prototype inheritance
+    ES6 class inheritance
+
+4. Asynchronous JavaScript
+
+🔹 Event Loop
+   Call stack
+   Web APIs
+   Callback Queue (macrotask queue)
+    Microtask Queue (Promises, queueMicrotask)
+
+🔹 Callbacks
+    First async pattern, leads to callback hell.
+
+🔹 Promises
+    States: pending → fulfilled → rejected
+    .then, .catch, .finally
+
+🔹 Async/Await
+    Syntactic sugar over promises.
+
+🔹 Promise APIs
+    Promise.all
+    Promise.race
+    Promise.allSettled
+    Promise.any
+
+🔹 Debounce vs Throttle
+    Debounce → wait until user stops typing
+    Throttle → run at fixed interval
+
+5. DOM & Browser Concepts
+
+    DOM tree
+    Event bubbling & capturing
+    Event delegation
+    Web APIs (fetch, setTimeout, localStorage)
+
+6. Event Propagation
+
+🔹 Phases
+    Capturing
+    Target
+    Bubbling
+
+🔹 Stop events
+    event.stopPropagation
+    event.stopImmediatePropagation
+
+🔹 Event Delegation
+    Attach event to parent instead of multiple children.
+
+7. Data Types & Memory
+
+🔹 Primitive vs Reference
+    Primitives stored by value; objects by reference.
+
+🔹 Deep Copy vs Shallow Copy
+    Shallow: spread, Object.assign
+    Deep: JSON.parse(JSON.stringify), structuredClone
+
+8. Modules
+
+🔹 CommonJS
+    require
+    module.exports
+
+🔹 ES Modules
+    import
+    export default
+    Named export
+
+9. Error Handling
+
+    try/catch
+    Custom errors
+    Promise rejection handling
+
+10. Performance Concepts
+
+    Repaints & reflows
+    requestAnimationFrame
+    Minimize DOM manipulation
+    Memoization
+    Lazy loading
+
+11. Browser Storage
+
+    localStorage
+    sessionStorage
+    cookies
+    IndexedDB
+
+12. Security in JS
+
+    Prevent XSS
+    Avoid eval
+    Sanitize inputs
+    Use strict mode
+    Avoid global variables
+
+13. Node.js Concepts
+
+    Event loop in Node
+    CommonJS vs ESM
+    Streams & buffers
+    File I/O
+    Middleware
+
+14. Testing Concepts
+
+    Unit tests (Jest)
+    Mocking
+    Spying
+    Snapshots
+
+15. Most Asked Coding Questions
+
+    Implement debounce
+    Implement throttle
+    Polyfill for map, filter, reduce
+    Polyfill for bind
+    Flatten array
+    Deep clone object
+    Promise chaining
+    Custom Promise implementation (advanced)
+
+*/
+
+/*
+1. Coercion rules
+2. let, var, const (TDZ , RefErr , how hoisting works)
+3. Hoisting
+4. Primitive and non-primitive data types
+5. Async execution in JS (Event loop , microtask queue , macrotask queue) → important interview questions
+6. Closures (code)
+7. Currying — Normal & Infinite (code)
+8. IIFE
+9. Normal vs Arrow function
+10. This keyword (code ex)
+11. Prototypes and prototypal inheritance (code)
+12. map, reduce, filter, forEach (practice questions)
+13. for…of vs for…in
+14. Callback hell , Callback ?? HOF??
+15. Promises (code , .then , .catch , methods (all, allsettled , race , any))
+16. Bubbling , capturing , delegation
+17. LS vs SS vs cookies
+18. Strict mode
+19. Web workers
+20. Call, Apply, Bind (code)
+21. Shallow vs deep copy (code)
+22. Object.freeze , seal
+23. Debouncing , Throttling
+24. SOLID principles (code)
+25. Design patterns (code)
+26. array , string , object methods
+27. Nullish coalescing operator
+28. null vs undefined
+29. Ways to write async code
+30. Promise vs async-await
+31. DOM vs BOM
+32. setTimeout , setInterval (code) (how to stop setInterval)
+33. Arrow vs normal function
+34. Generators , iterators
+35. How to increase performance of JS
+36. New ES6 features
+37. class , constructor , super (ex code)
+38. Fetch vs Axios
+39. REST API and GraphQL
+40. Functional programming and OOP
+41. OOP concepts
+
+*/
+
+// this.a = 5;
+// const getParam = () => {
+//     console.log(this);
+// }
+
+// getParam()
+
+// function getParam1() {
+//     console.log(this);
+// }
+
+// getParam1()
+
+// sum(2)(6)(1)
+
+// function sum(a){
+//     return function(b){
+//         return function(c){
+//             console.log(a+b+c)
+//         }
+//     }
+// }
+
+// console.log(sum(2)(6));
+
+function sum(fun) {
+  return fun;
+}
+
+fun(function () {
+  console.log("HOF");
+});
+
+

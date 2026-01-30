@@ -8,7 +8,7 @@
      JavaScript (ES6+)
     ✅  Destructuring, Spread/Rest
     ✅  Arrow functions
-        Modules (import/export)
+    ✅  Modules (import/export)
         Promises, async/await
         Classes & OOP basics
         DOM manipulation

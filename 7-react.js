@@ -2,18 +2,18 @@
 🧭 𝗥𝗘𝗔𝗖𝗧.𝗝𝗦 𝗥𝗢𝗔𝗗𝗠𝗔𝗣 (Every Concept from Beginner → Advanced)
 
 🟢 1. Prerequisites
-    Before learning React, you must be strong in:
-    HTML5 (semantic tags, forms, attributes)
-     CSS3 (flexbox, grid, animations)
-     JavaScript (ES6+)
+        Before learning React, you must be strong in:
+        HTML5 (semantic tags, forms, attributes)
+        CSS3 (flexbox, grid, animations)
+        JavaScript (ES6+)
     ✅  Destructuring, Spread/Rest
     ✅  Arrow functions
     ✅  Modules (import/export)
-        Promises, async/await
+    ✅  Promises, async/await
         Classes & OOP basics
         DOM manipulation
-     Basic Git & npm knowledge
-     Node.js & npm installed
+    ❌  Basic Git & npm knowledge
+    ❌  Node.js & npm installed
 
 🟩 2. React Fundamentals
     What is React? Why use it?
